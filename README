@@ -14,3 +14,12 @@
 # albedo changes gradually. interpolation between measurements.
 
 
+# other ideas I came across during this project
+# 1. use LANDSAT 8 images detecting near infrared to measure vegetation health: https://www.developmentseed.org/blog/2014/07/08/NK_NDVI/ and https://www.developmentseed.org/blog/2014/08/29/landsat-util/
+# 	-more relevant for long-term changes in plant health (research as opposed to near real-time responses)
+#	- but could provide interested insights for your customers on the long-term trajectory of their farm/orchard. e.g. how the drought over the past 5 years has affect them. Also could be a cool marketing tool to visualize the impact your technology has on farms. For instance, showing improvements in vegetative health after installing your system.
+
+
+
+Q's for Tom:
+1.  is it okay to use libraries from github (which you can install on your computer?)
