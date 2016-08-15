@@ -2,6 +2,8 @@
 
 # problem statement: Here is what we’re thinking of for the project. You were right that the albedo for a location is stable, but in fact it does change over the course of the year. It is a slow and gradual change with time, but enough of a change that we still need to update the albedo values for our fields regularly. We would like you to calculate the albedo for three plant ecosystem locations in California over a one acre area. For example, you could calculate the albedo for an acre of forest near Tahoe, the albedo for an orchard in Tulare County, and the albedo for a tomato field near Davis. We are interested in seeing what data source you use, how you process the data, and how you check the accuracy of your output. For the deliverables, we’d like to have a written description of your approach, including an explanation for your choices. We would like to see your code for exploring the data, evaluating methods, and checking the accuracy of your output. You may not have time to code the entire project, which is fine. In that case, please describe what you would do if you had more time. We are thinking this could be done by next Monday, August 15, at 10 pm.
 
+
+
 # initial thoughts:
 # 1. update the albedo values regularly --> what frequency? do some research to determine how rapidly albedo changes in different environments. probably changes at diff frequency in diff ecosystems.
 # 2. calc albedo for 3 plant ecosystems. Better yet, I would develop a function that can take in a location and date and output an albedo. For this to be possible, the function will need to mine satellite data/ google earth for information about land cover given a location and a date.
